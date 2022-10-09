@@ -19,7 +19,7 @@ Lists allow duplicate values.
 Lists are created using square brackets:
 
 `from typing import Tuple
-`A = [[1, 4, 5, 12], 
+`A = [[1, 4, 5, 12],
 `    [-5, 8, 9, 0],
 `    [-6, 7, 11, 19]]
 
