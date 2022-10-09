@@ -74,7 +74,7 @@ When we say that tuples are ordered, it means that the items have a defined orde
 ```
 tupla = ("a1", "a2", "a4")
 print(tupla[1])
-
+```
 
 ## Set
 A set is a collection which is unordered, unchangeable*, and unindexed.
