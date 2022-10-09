@@ -34,7 +34,7 @@ for row in A:
 print("3rd column =", column)
 ```
 
-# Program to add two matrices using nested loop
+### Program to add two matrices using nested loop
 
 ```
 X = [[12,7,3],
@@ -58,7 +58,7 @@ matrixaddition(X, Y, result)
 print(result)
 ```
 
-# Program to add two matrices using list comprehension
+### Program to add two matrices using list comprehension
 ````
 result = [[X[i][j] + Y[i][j]  for j in range(len(X[0]))] for i in range(len(X))]
 print("Program to add two matrices using list comprehension")
