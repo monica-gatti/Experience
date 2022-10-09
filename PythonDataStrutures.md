@@ -37,32 +37,32 @@ Lists are created using square brackets:
 
 # Program to add two matrices using nested loop
 
-X = [[12,7,3],
-    [4 ,5,6],
-    [7 ,8,9]]
-
-Y = [[5,8,1],
-    [6,7,3],
-    [4,5,9]]
-
-result = [[0,0,0],
-          [0,0,0],
-          [0,0,0]]
-
-def matrixaddition(A1, A2, result):
-  for i in range(len(X)):
-    for y in range(len(X)):
-      result[i][y] = X[i][y] + Y[i][y]
-
-matrixaddition(X, Y, result)
-print(result)
+`X = [[12,7,3],
+`    [4 ,5,6],
+`    [7 ,8,9]]
+`
+`Y = [[5,8,1],
+`    [6,7,3],
+`    [4,5,9]]
+`
+`result = [[0,0,0],
+`          [0,0,0],
+`          [0,0,0]]
+`
+`def matrixaddition(A1, A2, result):
+`  for i in range(len(X)):
+`    for y in range(len(X)):
+`      result[i][y] = X[i][y] + Y[i][y]
+`
+`matrixaddition(X, Y, result)
+`print(result)
 
 
 # Program to add two matrices using list comprehension
-result = [[X[i][j] + Y[i][j]  for j in range(len(X[0]))] for i in range(len(X))]
-print("Program to add two matrices using list comprehension")
-for r in result:
-   print(r)
+`result = [[X[i][j] + Y[i][j]  for j in range(len(X[0]))] for i in range(len(X))]
+`print("Program to add two matrices using list comprehension")
+`for r in result:
+`   print(r)
 
   
 ## Tuple
@@ -71,8 +71,8 @@ Tuple items are indexed, the first item has index [0], the second item has index
 Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
 When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
 
-tupla = ("a1", "a2", "a4")
-print(tupla[1])
+`tupla = ("a1", "a2", "a4")
+`print(tupla[1])
 
 
 ## Set
