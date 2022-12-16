@@ -1,0 +1,10 @@
+# Docker Desktop
+
+- Launch Docker Desktop
+- Create the docker compose file ( file with extension yml)
+- From Power Shell launch
+```
+PS C:\SourceCode\PyAndDocDb\docker> docker build -t docker-mongodb.yml .
+```
+
+- docker ps
