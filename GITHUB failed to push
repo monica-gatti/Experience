@@ -1,7 +1,8 @@
 
+#Failed to push error
 
 I receive  this error when pull-push-fetch:
-error: failed to push some refs to 'https://github.com
+_error: failed to push some refs to 'https://github.com_
 
 To solve:
 
@@ -15,8 +16,7 @@ git branch -M main
 git push origin main --force
 
 
-
-
+## What are we doing?
 git reset: Git reset is primarily used to undo the staging index changes
 git remote -v : view connection with repository
 git pull --rebase: The git pull and git rebase are almost similar with some differences. You may have already heard of git fetch command which will fetch down all 
