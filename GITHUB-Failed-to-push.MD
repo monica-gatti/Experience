@@ -1,5 +1,5 @@
 
-#Failed to push error
+# Failed to push error
 
 I receive  this error when pull-push-fetch:
 _error: failed to push some refs to 'https://github.com_
