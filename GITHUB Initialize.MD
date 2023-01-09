@@ -1,5 +1,6 @@
-# Initialize a new project with git init
+# Initialize a new project with git init  
 
+In the local folder, from vscode terminal or cmd line:  
 ´´´
 git init  
 ´´´
