@@ -1,12 +1,5 @@
 # Initialize a new project with git init  
 
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-
 In the local folder, from vscode terminal or cmd line:  
 ```
 git init  
