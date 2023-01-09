@@ -1,13 +1,9 @@
 # Initialize a new project with git init  
 
 In the local folder, from vscode terminal or cmd line:  
-´´´
-git init  
-´´´
+´git init  ´  
 Starts a new local repository ( you will see the .git folder)  
-´´´
-git init subfoldername  
-´´´
+´git init subfoldername  ´  
 Starts a new local repository in a subfolder  
 
 After creating the new local repository, you can create files, make change  
