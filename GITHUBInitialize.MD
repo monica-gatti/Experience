@@ -1,6 +1,6 @@
 # Initialize a new project with git init  
 
-If you are starting to manage your code base with github, and the remote repository doesn't exist or contains no items you proceed with `git init` 
+If you are starting to manage your code base with github, and the remote repository doesn't exist or contains no items you proceed with `git init`.   
 In the local folder, from vscode terminal or cmd line:  
 ```
 git init  
