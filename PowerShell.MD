@@ -3,8 +3,11 @@
 ```
 PS >Invoke-WebRequest -Uri https://dst-de.s3.eu-west-3.amazonaws.com/mongo_fr/zips.json -UseBasicParsing -OutFile zips.json
 ```
-
 ## To unzip a tar file
 ```
 tar -xzf filename.tgz
+```
+## which equivalent
+```
+get-command -all python
 ```
