@@ -1,6 +1,6 @@
-# Docker Desktop
+# Docker Desktop/
 
-- Launch Docker Desktop
+- Launch Docker Desktop 
 - Create the docker compose file ( file with extension yml)
 - From Power Shell launch
 ```
@@ -11,3 +11,23 @@ See active containers: please note that it's necessary -a to check all the conta
 ```
 docker ps -a
 ```
+
+
+To release disk space on Ubuntu
+Stop the container(s) using the following command:
+```
+docker-compose down
+```
+Delete all containers using the following command:
+```
+docker rm -f $(docker ps -a -q)
+```
+Delete all volumes using the following command:
+```
+docker volume rm $(docker volume ls -q)
+```
+Restart the containers using the following command:
+```
+docker-compose up -d
+```
+The same command didn't work on windows10. I had to use Troubleshoot --> purge in Docker Desktop inferface
