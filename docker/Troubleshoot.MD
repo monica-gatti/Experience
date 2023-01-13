@@ -15,15 +15,15 @@ docker ps -a
 
 ## Release disk space
 To release disk space on Ubuntu.
-1)Stop the container(s) using the following command:
+1. Stop the container(s) using the following command:
 ```
 docker-compose down
 ```
-2)Delete all containers using the following command:
+2. Delete all containers using the following command:
 ```
 docker rm -f $(docker ps -a -q)
 ```
-3)Delete all volumes using the following command:
+3. Delete all volumes using the following command:
 ```
 docker volume rm $(docker volume ls -q)
 ```
