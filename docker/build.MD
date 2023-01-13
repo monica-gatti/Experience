@@ -7,4 +7,7 @@
 PS C:\SourceCode\PyAndDocDb\docker> docker build -t docker-mongodb.yml .
 ```
 
-- docker ps
+See active containers: please note that it's necessary -a to check all the container that drains disk space
+```
+docker ps -a
+```
