@@ -41,4 +41,4 @@ settings.json
 
 
 Re-install vs code in
-      C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code
+      C:\Users\username\AppData\Local\Programs\Microsoft VS Code
