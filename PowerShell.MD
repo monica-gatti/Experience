@@ -8,6 +8,8 @@ PS >Invoke-WebRequest -Uri https://dst-de.s3.eu-west-3.amazonaws.com/mongo_fr/zi
 tar -xzf filename.tgz
 ```
 ## which equivalent
+The Linux 'which' command seems mutated by 'where' in PS. I tried with python, postgres but no way. 
+Finally 'get-command' worked for python and returned the path
 ```
 get-command -all python
 ```
