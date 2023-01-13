@@ -1,4 +1,4 @@
-# Docker Desktop/
+## Docker build
 
 - Launch Docker Desktop 
 - Create the docker compose file ( file with extension yml)
@@ -7,26 +7,27 @@
 PS C:\SourceCode\PyAndDocDb\docker> docker build -t docker-mongodb.yml .
 ```
 
+## See active container
 See active containers: please note that it's necessary -a to check all the container that drains disk space
 ```
 docker ps -a
 ```
 
-
-To release disk space on Ubuntu
-Stop the container(s) using the following command:
+## Release disk space
+To release disk space on Ubuntu.
+1)Stop the container(s) using the following command:
 ```
 docker-compose down
 ```
-Delete all containers using the following command:
+2)Delete all containers using the following command:
 ```
 docker rm -f $(docker ps -a -q)
 ```
-Delete all volumes using the following command:
+3)Delete all volumes using the following command:
 ```
 docker volume rm $(docker volume ls -q)
 ```
-Restart the containers using the following command:
+After that, you can restart the containers using the following command:
 ```
 docker-compose up -d
 ```
