@@ -13,3 +13,8 @@ Finally 'get-command' worked for python and returned the path
 ```
 get-command -all python
 ```
+## Redirect output
+While unix use 2& to redirect terminal output toa file, Powershell uses 'tee'
+```
+powershell "pip list | tee C:\mypath\myfile.txt"
+```
