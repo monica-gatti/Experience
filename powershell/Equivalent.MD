@@ -1,7 +1,7 @@
 
 ### To download a file from a Uri ( by instance a JSON file) you can use the WGET equivalent in PowerShell
 ```
-PS >Invoke-WebRequest -Uri https://dst-de.s3.eu-west-3.amazonaws.com/mongo_fr/zips.json -UseBasicParsing -OutFile zips.json
+PS Invoke-WebRequest -Uri https://dst-de.s3.eu-west-3.amazonaws.com/mongo_fr/zips.json -UseBasicParsing -OutFile zips.json
 ```
 ### To unzip a tar file
 ```
@@ -14,7 +14,7 @@ Finally 'get-command' worked for python and returned the path
 get-command -all python
 ```
 ### Redirect output
-While unix use 2& to redirect terminal output toa file, Powershell uses 'tee'
+While unix use 2 >& to redirect terminal output to a file, Powershell uses 'tee'
 ```
 powershell "pip list | tee C:\mypath\myfile.txt"
 ```
