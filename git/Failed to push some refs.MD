@@ -2,9 +2,9 @@
 ## Error on push command
 You made  
 ```
-git push origin main returns:
+git push origin main
 ```
-and you reveided:  
+and you receided:  
 ```
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/monica-gatti/SparkPrj'
