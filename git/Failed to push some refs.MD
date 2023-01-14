@@ -37,3 +37,24 @@ return "fatal: refusing to merge unrelated histories"
 ```
 So, use:
 git pull origin main --allow-unrelated-histories
+
+
+## Error on push after a git clone
+
+```
+PS C:\SourceCode\PyEncrypt> git push origin main
+```
+Returned:
+```
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+```
+If the current branch is master in place of main:
+```
+git pull origin main
+```
+If the error persists, add the origin
+```
+git remote add origin https://github.com/monica-gatti/PyEncrypt
+git pull origin main
+```
