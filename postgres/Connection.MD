@@ -1,8 +1,10 @@
 
-
-SELECT * FROM pg_stat_activity WHERE datname = 'NyTimes'
-
-
+See current connection 
+```
+SELECT * FROM pg_stat_activity WHERE datname = 'DbName';
+```
+Kill current connections
+```
 SELECT 
     pg_terminate_backend(pid) 
 FROM 
@@ -11,5 +13,5 @@ WHERE
     -- don't kill my own connection!
     pid <> pg_backend_pid()
     -- don't kill the connections to other databases
-    AND datname = 'NyTimes'
-    ;
+    AND datname = 'DbName';
+```
