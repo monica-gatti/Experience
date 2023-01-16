@@ -4,7 +4,7 @@ matplotlib.pyplot.hist(x, bins=None, range=None, density=False, weights=None, cu
 histtype=’bar’, align=’mid’, orientation=’vertical’, rwidth=None, log=False, color=None, label=None, stacked=False)
 ```
 
-Parameter	Description
+### Parameter	
 **x**:	This denotes the input parameter in the form of arrays.  
 **bins**:	This denotes the range of values. It can accept both integer and sequence values.  
 **range**:	The lower and upper range of bins is included through this parameter.  
