@@ -22,3 +22,9 @@ List docker containers
 ```
 docker container ls
 ```
+
+To list also stopped containers
+```
+docker container ls --all
+```
+
