@@ -15,7 +15,7 @@ Launch docker image
 ```
 docker container run imagename
 ```
-
+that returns
 ```
 ubuntu@ip-172-31-40-119:~$ docker container run hello-world                                                                                                             Hello from Docker!
 This message shows that your installation appears to be working correctly. To generate this message, Docker took the following steps:
