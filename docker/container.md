@@ -3,6 +3,10 @@ Docker operates on a client-server architecture. A client, in this docker-cli co
 
 Finally, note that the exact operation of Docker and containers in general is managed by the Linux system of the host machine or by its emulator if you are working on a Windows machine.
 
+Ubuntu
+```
+docker --version
+```
 Launch Docker daemon
 ```
 sudo service docker start
