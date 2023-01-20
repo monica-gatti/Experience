@@ -15,6 +15,7 @@ Launch docker image
 ```
 docker container run imagename
 ```
+
 ```
 ubuntu@ip-172-31-40-119:~$ docker container run hello-world                                                                                                             Hello from Docker!
 This message shows that your installation appears to be working correctly. To generate this message, Docker took the following steps:
@@ -25,7 +26,7 @@ This message shows that your installation appears to be working correctly. To ge
 To try something more ambitious, you can run an Ubuntu container with:
 $ docker run -it ubuntu bash 
 Share images, automate workflows, and more with a free Docker ID:                                                                                https://hub.docker.com/   
-For more examples and ideas, visit:                                                                                                                   https://docs.docker.com/get-started/                                                                                                                                   ```
+For more examples and ideas, visit:                                                                                                                   https://docs.docker.com/get-started/                                                                                                                                   ```  
                    
 List docker images
 ```
