@@ -26,6 +26,9 @@ that returns:
     To try something more ambitious, you can run an Ubuntu container with:
     $ docker run -it ubuntu bash 
     Share images, automate workflows, and more with a free Docker ID:                                                                                   ```  
+https://hub.docker.com/   
+    For more examples and ideas, visit:                                                                                                                   https://docs.docker.com/get-started/
+```
 
 List docker images
 
