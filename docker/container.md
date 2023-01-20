@@ -51,3 +51,4 @@ To list also stopped containers
 docker container ls --all
 ```
 
+When you create a Docker image, you give it a name that makes it easy to identify. You can also give it a tag or a label that allows you to differentiate between different versions of the same image. If no tag is specified, Docker considers that the tag used is latest. For the same name, or the same repository, we can have several different tags that coexist. In addition, a unique id is assigned to it when the image is downloaded or created locally: the id corresponds to the hashed image.
