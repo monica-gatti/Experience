@@ -1,3 +1,3 @@
-On Windows10 open the following path in File Explorer:
+On Windows10 open the following path in File Explorer and type \\wsl$
 
-\\wsl$\docker-desktop-data\data\docker\volumes
+After navigate to \\wsl.localhost\docker-desktop-data\data\docker\volumes
