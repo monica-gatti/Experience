@@ -1,3 +1,5 @@
+
+```
 curl -X 'POST' \
   'http://54.195.173.72:8000/predict' \
   -H 'accept: application/json' \
@@ -6,3 +8,5 @@ curl -X 'POST' \
   "sentence": "hello world",
   "language": "en"
 }'
+
+```
